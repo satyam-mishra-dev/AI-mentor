@@ -12,7 +12,8 @@ const HeroSection = () => {
     const imageElement = imageRef.current;
 const demoFuntion =(req,res) =>{
   res.render("page.tsx");
-}
+} 
+demoFuntion();
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const scrollThreshold = 100;
