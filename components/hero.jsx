@@ -10,7 +10,9 @@ const HeroSection = () => {
 
   useEffect(() => {
     const imageElement = imageRef.current;
-
+const demoFuntion =(req,res) =>{
+  res.render("page.tsx");
+}
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const scrollThreshold = 100;
