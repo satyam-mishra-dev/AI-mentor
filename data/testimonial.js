@@ -13,7 +13,7 @@ export const testimonial = [
     author: "Ronit Shekhar",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
     role: "Student, Figma Designer",
-    company: "StartUp Inc.",
+    company: "RCET,Bhilai",
   },
   {
     quote:
