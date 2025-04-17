@@ -28,8 +28,6 @@ export default async function Header() {
         <Link href="/">
           <h3 className="text-xl text-slate-400">AI Mentor</h3>
         </Link>
-
-        {/* Action Buttons */}
         <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
             <Link href="/dashboard">
